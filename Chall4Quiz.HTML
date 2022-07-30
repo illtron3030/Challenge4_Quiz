@@ -5,20 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Coding Quiz</title>
-    <link rel="stylesheet" href="style.css">
+    <!--<link rel="stylesheet" href="style.css">-->
   </head>
-  <div class="highscore"
-    <a href="highscore-html">View High Scores</a>
-  </div>
+  <body>
+    <main id="content">
+        <h1>Welcome to my Quiz
+        </h1>
 
-  <div class="timer-container"></div>
+        <section id="container">
+            <h2>what language is best?</h2>
+            <ul>
+                <li>jave</li>
+                <li>c++</li>
+                <li>javascript</li>
+                <li>python</li>
+            </ul>
+        </section>
 
-  //start container
-  <div class="start-container">
-    <h1>Thank You for visiting my javascript quiz</h1>
-    <h2>Click start to begin</h2>
-    <button class="start-btn">Start Quiz</button>
-   </div>
-	<script src="index.js"></script>
-  
+        <p>
+            Timer:
+            <span id="timer">0</span>
+        </p>
+
+        <button id="start">Start Quiz</button>
+        </main>
+        <script src="index.js"></script>
+  </body>
 </html>
