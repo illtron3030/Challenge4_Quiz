@@ -1,0 +1,22 @@
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    background-color: blue;
+    border-radius: 5px;
+    width: 200 px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+ul li:hover{
+    background-color: red;
+    color: navy;
+    cursor: pointer;
+}
