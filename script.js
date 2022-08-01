@@ -9,39 +9,39 @@ var  timerInterval
 
 var questions = [
     {
-        question: "what color is your momma?",
-        options: ["black", "green","purple", "red"],
-        answer: "black"
+        question: "What is javascipt primarily used for?",
+        options: ["the web", "electric grid","trash collection", "writing poetry"],
+        answer: "the web"
     },
     {
-        question: "what color is your dad?",
-        options: ["black", "green","purple", "red"],
-        answer: "black"
+        question: "What is javascript?",
+        options: ["kind of coffee roasting method", "a movie script written in a coffee house","object-based programming language", "a subsidiary of Starbucks"],
+        answer: "object-based programming language"
     },
     {
-        question: "what color is your sister?",
-        options: ["black", "green","purple", "red"],
-        answer: "black"
+        question: "Which company developed javascript?",
+        options: ["Netscape", "Apple","Microsoft", "Nike"],
+        answer: "Netscape"
     },
     {
-        question: "what color is your brother?",
-        options: ["black", "green","purple", "red"],
-        answer: "black"
+        question: "Which of these is not a javascript data type?",
+        options: ["number", "string","boolean", "french fry"],
+        answer: "french fry"
     },
     {
-        question: "what color is your dog?",
-        options: ["black", "green","purple", "red"],
-        answer: "black"
+        question: "What symbol is used for single line comments?",
+        options: ["//", "!!","%%", "**"],
+        answer: "//"
     },
     {
-        question: "what color is your cat?",
-        options: ["black", "green","purple", "red"],
-        answer: "black"
+        question: "Which of the following is not a type of pop up window in javascript?",
+        options: ["alert", "prompt","confirm", "jumbotron"],
+        answer: "jumbotron"
     },
     {
-        question: "what color is your fish?",
-        options: ["black", "green","purple", "red"],
-        answer: "black"
+        question: "How many buttons does an alert box have?",
+        options: ["one", "two","three", "four"],
+        answer: "one"
     },
 ];
 function endgame(){
@@ -106,9 +106,8 @@ containerEl.addEventListener('click', function(event){
         alert('correct')  
         score+=5  
         scoreEl.textContent = score;
-    }//TO DO: increase score
+    }
     //Extra credit play a sound
-    //modify timer
     else {
         alert('incorrect')
         timer -=10
