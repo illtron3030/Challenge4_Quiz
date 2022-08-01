@@ -16,7 +16,11 @@ ul li {
 }
 
 ul li:hover{
-    background-color: red;
+    background-color: blueviolet;
     color: navy;
     cursor: pointer;
+}
+
+.hidden{
+    display:none
 }
