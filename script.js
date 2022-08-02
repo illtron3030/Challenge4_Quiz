@@ -9,7 +9,7 @@ var timerInterval;
 
 var questions = [
   {
-    question: "What is javascipt primarily used for?",
+    question: "What is javascript primarily used for?",
     options: ["the web", "electric grid", "trash collection", "writing poetry"],
     answer: "the web",
   },
