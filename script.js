@@ -112,9 +112,7 @@ containerEl.addEventListener("click", function (event) {
       alert("correct");
       score += 5;
       scoreEl.textContent = score;
-    }
-    //Extra credit play a sound
-    else {
+    } else {
       alert("incorrect");
       timer -= 10;
     }
